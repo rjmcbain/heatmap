@@ -1,4 +1,4 @@
-.wrapper {
+/* .wrapper {
   display: grid;
   grid-template-columns: repeat(3, minmax(50px, 1fr));
   background-color: #fff;
@@ -25,4 +25,63 @@ div:nth-child(5) {
   border-radius: 5px;
   padding: 20px;
   font-size: 150%;
+} */
+
+.highlight {
+  color: red;
+  background-color: yellow;
+  border: 1px solid red;
+}
+
+.border {
+  border: 1px solid black;
+  width: 350px;
+  height: 700px;
+  background-color: white;
+}
+
+.textvalue {
+  display: none;
+}
+
+.textvalue div {
+  border: 1px solid black;
+  display: inline-block;
+  width: 170px;
+  height: 170px;
+  text-align: center;
+  /* float: left; */
+  /* margin-top: 20%; */
+  /* display: none; */
+}
+.centerDiv {
+  float: right;
+  position: absolute;
+  left: 35%;
+  top: 9px;
+  background-color: white;
+  border: 1px solid black;
+  width: 350px;
+  height: 700px;
+}
+
+.rightDiv {
+  float: right;
+  position: absolute;
+  left: 70%;
+  top: 9px;
+  background-color: white;
+  border: 1px solid black;
+  width: 350px;
+  height: 700px;
+}
+
+body {
+  background-color: grey;
+}
+
+select#inventoryForm {
+  position: absolute;
+  top: 25px;
+  left: 405px;
 }
