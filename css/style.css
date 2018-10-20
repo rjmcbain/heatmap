@@ -25,4 +25,5 @@ div:nth-child(5) {
   border-radius: 5px;
   padding: 20px;
   font-size: 150%;
+  text-align: center;
 }
