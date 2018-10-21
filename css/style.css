@@ -34,6 +34,9 @@ div:nth-child(5) {
 }
 
 .border {
+  position: absolute;
+  left: 1%;
+  top: 9px;
   border: 1px solid black;
   width: 23%;
   height: 90%;
