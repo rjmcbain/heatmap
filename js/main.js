@@ -12,8 +12,20 @@
 //   })
 //   .change();
 
-$("#inventoryForm").on("click", function() {
-  $(".textvalue").show();
+// $("#inventoryForm").on("click", function() {
+//   $(".textvalue").show();
+// });
+
+$("#inventoryForm").on("change", function() {
+  if ($("#inventoryForm").val() !== "None") {
+    console.log("show");
+    $(".textvalue").show();
+  } else if ($("#inventoryForm").val() === "None") {
+    console.log("hide");
+    $(".textvalue").hide();
+  }
+
+  // if($("#inventoryForm").val() )
 });
 
 $("select")
@@ -22,8 +34,13 @@ $("select")
       .removeClass("highlight")
       .filter(":contains(" + this.value + ")")
       .addClass("highlight");
-    if (this.value === "1") {
-      console.log("Not Available");
+    console.log("This: ", this);
+    if (
+      this.value === "Inventory 9" &&
+      $("#inventoryForm").val() === "Inventory 9"
+    ) {
+      $(".textvalue").hide();
+      alert("Not In Inventory");
     }
   })
   .change();
