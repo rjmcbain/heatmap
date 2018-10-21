@@ -61,8 +61,8 @@ div:nth-child(5) {
   top: 9px;
   background-color: white;
   border: 1px solid black;
-  width: 350px;
-  height: 700px;
+  width: 23%;
+  height: 90%;
 }
 
 .rightDiv {
@@ -72,8 +72,8 @@ div:nth-child(5) {
   top: 9px;
   background-color: white;
   border: 1px solid black;
-  width: 350px;
-  height: 700px;
+  width: 23%;
+  height: 90%;
 }
 
 body {
