@@ -12,8 +12,18 @@
 //   })
 //   .change();
 
-$(".box").each(function(i, v) {
-  if (v === String) {
-    console.log("true");
-  }
+$("#inventoryForm").on("click", function() {
+  $(".textvalue").show();
 });
+
+$("select")
+  .on("change", function() {
+    $(".textvalue div")
+      .removeClass("highlight")
+      .filter(":contains(" + this.value + ")")
+      .addClass("highlight");
+    if (this.value === "1") {
+      console.log("Not Available");
+    }
+  })
+  .change();
