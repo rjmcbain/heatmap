@@ -57,7 +57,7 @@ div:nth-child(5) {
 .centerDiv {
   float: right;
   position: absolute;
-  left: 35%;
+  left: 35.5%;
   top: 9px;
   background-color: white;
   border: 1px solid black;
@@ -68,7 +68,7 @@ div:nth-child(5) {
 .rightDiv {
   float: right;
   position: absolute;
-  left: 70%;
+  left: 71%;
   top: 9px;
   background-color: white;
   border: 1px solid black;
@@ -83,5 +83,7 @@ body {
 select#inventoryForm {
   position: absolute;
   top: 25px;
-  left: 405px;
+  left: 26%;
+  width: 7%;
+  height: 3%;
 }
