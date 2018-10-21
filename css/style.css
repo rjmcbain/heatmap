@@ -80,7 +80,7 @@ div:nth-child(5) {
 }
 
 body {
-  background-color: grey;
+  background-color: rgb(65, 65, 65);
 }
 
 select#inventoryForm {
